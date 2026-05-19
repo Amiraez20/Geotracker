@@ -270,11 +270,11 @@ Avant de lancer l'app Android, tester le serveur indépendamment :
 
 La réponse attendue est : `Coordonnees enregistrees`
 
-> **📸 Screenshot à insérer ici :**  
-> Capture Postman montrant la requête POST et la réponse `Coordonnees enregistrees`.
+<img width="1919" height="1006" alt="POSTMANTESTSUCCES" src="https://github.com/user-attachments/assets/33419dcc-8193-4858-9d10-0f09c80889ef" />
 
-> **📸 Screenshot à insérer ici :**  
-> Capture phpMyAdmin montrant la ligne insérée dans la table `coordonnee` après le test Postman.
+
+<img width="1919" height="935" alt="POSTMANRESULT" src="https://github.com/user-attachments/assets/57b4dbfe-b6ae-4fcd-9f3a-fe9729e39053" />
+
 
 ---
 
@@ -512,37 +512,13 @@ public class MainActivity extends AppCompatActivity {
 
 1. Remplacer `VOTRE_IP` par `10.0.2.2` dans `ENDPOINT`
 2. Lancer l'émulateur
-3. Dans les outils de l'émulateur → **Location** → entrer des coordonnées (ex : `48.8566` / `2.3522`) → cliquer **Set Location**
-4. Accepter les permissions au démarrage
 5. Vérifier qu'une nouvelle ligne apparaît dans phpMyAdmin
 
-> **🎥 Screen record à insérer ici :**  
-> Enregistrement montrant l'émulateur recevoir une position GPS simulée, afficher les coordonnées dans l'interface, et une nouvelle ligne apparaître dans phpMyAdmin.
+https://github.com/user-attachments/assets/c49055c1-c4ad-4d30-8c5f-e3c470a5543d
 
-> **📸 Screenshot à insérer ici :**  
-> Capture de l'interface de l'émulateur affichant les coordonnées (latitude, longitude, altitude, précision).
 
-> **📸 Screenshot à insérer ici :**  
-> Capture phpMyAdmin montrant les lignes insérées dans la table `coordonnee` depuis l'application Android.
-
-### Étape 15 — Test sur téléphone réel (optionnel)
-
-1. Remplacer `VOTRE_IP` par l'IP locale de la machine (trouver avec `ipconfig` sous Windows)
-2. S'assurer que le téléphone et le PC sont sur le **même réseau Wi-Fi**
-3. Générer l'APK : **Build → Build APK(s)**
-4. Partager l'APK par câble USB, Google Drive ou WhatsApp
-5. Installer l'APK sur le téléphone (autoriser les sources inconnues)
-6. Activer le GPS et lancer l'application
-7. Vérifier les données reçues dans phpMyAdmin
-
-> **🎥 Screen record à insérer ici :**  
-> Enregistrement sur téléphone réel montrant l'application détecter le GPS, afficher les coordonnées, et l'insertion en temps réel dans la base de données.
-
-> **📸 Screenshot à insérer ici :**  
-> Capture phpMyAdmin montrant plusieurs lignes insérées depuis le téléphone réel avec le `device_code` correspondant.
 
 ---
-
 ## Récapitulatif des changements de nommage
 
 | Élément original | Élément utilisé dans ce projet |
