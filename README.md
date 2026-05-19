@@ -275,6 +275,9 @@ La réponse attendue est : `Coordonnees enregistrees`
 
 <img width="1919" height="935" alt="POSTMANRESULT" src="https://github.com/user-attachments/assets/57b4dbfe-b6ae-4fcd-9f3a-fe9729e39053" />
 
+<img width="1169" height="80" alt="Capture d&#39;écran 2026-05-19 174346" src="https://github.com/user-attachments/assets/7422fcc4-4284-49fc-906a-1c96cf8e72f7" />
+
+
 
 ---
 
