@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GeoTracker</string>
+    <string name="gps_actif">Fournisseur %s activé</string>
+    <string name="gps_inactif">Fournisseur %s désactivé</string>
+    <string name="nouveau_statut">Statut mis à jour — %1$s : %2$s</string>
+    <string name="coords_recues">Lat: %1$s | Lng: %2$s | Alt: %3$s | Précision: %4$s m</string>
+</resources>
